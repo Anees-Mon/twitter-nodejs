@@ -9,7 +9,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:3000/login
+POST https://anees-twitter.herokuapp.com/login
 Content-Type: application/json
 
 {
@@ -26,7 +26,7 @@ GET http://localhost:3000/user/followers
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTY1NTIyMzQ0OH0.oGCDptTrdm5JCOT093GhtdZHOX0hxm_ji2l5xKUqLC8
 
 ###
-GET http://localhost:3000/user/tweets/feed
+GET https://anees-twitter.herokuapp.com/user/tweets/feed
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsImlhdCI6MTY1NTIyMzQ0OH0.oGCDptTrdm5JCOT093GhtdZHOX0hxm_ji2l5xKUqLC8
 
 ###
